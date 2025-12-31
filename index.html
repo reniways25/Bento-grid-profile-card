@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento grid profile card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Setting up the main container-->
+    <main class="container">
+        <!--Each section represents a column-->
+        <section class="column--" id="left_column">
+            <!--Each div is a single card-->
+            <div id="Tracking_card">
+                <nav class="tabs"> <!--For the tab wrapper-->
+                   <span class="tab_active">Tracking Package</span>
+                   <span class="tab_inactive">Shipping Rates</span>
+                </nav>
+                <!--The action attribute tells where the form should be submitted to in the backend like "trackingform.php"-->
+                <form action="#backend">
+                    <input type="text" placeholder="Tracking Number">
+                    <input type="text" placeholder="Tracking Number">
+                    <input type="text" placeholder="Tracking Number">
+                    <p>Available up 10 tracking number. <a href="#new input">Add New Input</a></p>
+                    <button>Track Order</button>
+                </form>
+            </div>
+            <!--next card on the same column-->
+            <div id="dark_info">
+                <h3>Innovative Solutions for the Future</h3>
+                <p>choose Silverlight Logistic for commitment, reliability and seamless service, We understand that your shipments are more than packages.</p>
+            </div>
+        </section> 
+
+        <!--The middle column-->
+        <section class="column--" id="middle_column">
+            <div id="Large_Image_card"> 
+                <nav>
+                    <span class="badge" style="justify-content: flex-start;">WHY CHOOSE US</span>
+                </nav>
+                <h2 style="color: #fff;">Charting Our Service Course</h2>
+                <p>Operating in 23 countries allows us to provide tailored logistics solutions globally, ensuring a local touch in every service we deliver</p>
+            </div>
+            <div id="Stats_card">
+                <h1>82K+</h1>
+                <h2>Delivered Packages</h2>
+                <p>Our achievement of successfully delivering 83,000+ packages speaks volumes about the trust our clients place in our services</p>
+            </div>
+        </section>
+
+        <!--The right column-->
+        <section class="column--" id="Right_column">
+            <div id="Highlight_card">
+                <h3>Innovation as a Driver</h3>
+                <p>Embracing innovation, investing in cutting-edge technology and offering forward-thinking solutions</p>
+            </div>
+            <div id="Image_card">
+                <h3>Seamlessly Across the Seas withh Ocean Freight services</h3>
+            </div>
+        </section>
+  </main>
+  <!--Just a-->
+  <footer>
+    <p>&copy; 2025 Silverlight Logistics. All rights reserved. </p>
+  </footer>
+  
+</body>
+</html>
